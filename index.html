@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Custom select</title>
+		<link rel="stylesheet" href="assets/css/local.css" />
+		<link rel="stylesheet" href="assets/css/cselect.css" />
+    <script type="module" src="assets/js/app.js"></script>
+	</head>
+	<body>
+		<div class="container">
+	
+			<form method="" action="">
+				<div class="form-group">
+					<h2>Add new options and update CSelect</h2>
+					<div class="custom-select-wrapper">
+						<label for="thunderstruck">Thunderstruck</label>
+						<div class="form-wrapper">
+							<select class="thunderstruck-select" name="thunderstruck" id="thunderstruck" placeholder="Please select an option">
+								<option disabled selected value> -- select an option -- </option>
+								<option value="walls">The walls were shaking</option>
+								<option value="earth">The earth was quaking</option>
+								<option disabled value="mind">My mind was aching</option>
+								<option value="cause-you">Cause you</option>
+								<option value="shook">SHOOK ME ALL NIGHT LONG!</option>
+							</select>
+							<button id="updateSelect" type="button">Add content</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
